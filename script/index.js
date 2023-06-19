@@ -6,3 +6,21 @@ const members = [
   { name: 'Rocket Raccoon', id: 'rocket' },
   { name: 'I am Groot', id: 'groot' },
 ]
+
+let activeMember = 0
+const images = document.getElementById('images')
+
+function changeStatusButtons(){
+  const prev = document.getElementById('button_prev')
+  const next = document.getElementById('button_next')
+}
+
+function navigationMember(direction) {
+  activeMember = activeMember + direction
+
+  const member = members[activeMember]
+  
+  console.log(activeMember, member)
+
+  images.style.transform = `translateY (${-100 * activeMember }vh)`
+}
