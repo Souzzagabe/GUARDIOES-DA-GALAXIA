@@ -41,6 +41,12 @@ header {
     width: 24px;
 }
 
+
+@media (min-width: 250px) and (max-width: 390px) {
+    button#menu.active {
+      overflow: hidden;
+    }
+  }
 /* #menu.active span:nth-child(2) {
     opacity: 0;
     width: 0px;
@@ -55,3 +61,6 @@ header {
     transform: rotate(-45deg) translate(-8px, -7px);
     width: 32px;
 }
+
+
+@media (min-width: 390px) and (max-width: 600px

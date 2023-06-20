@@ -89,5 +89,19 @@
         gap: 40px 0px;
     }
 
-
 }
+
+
+@media (min-width: 250px) and (max-width: 390px) {
+    #navigation {
+        overflow: auto;
+    }
+
+    #navigation.active {
+        right: -100px;
+    }
+
+    #navigation strong {
+        margin: auto;
+    }
+  }
