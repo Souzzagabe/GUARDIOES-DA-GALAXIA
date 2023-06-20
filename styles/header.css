@@ -41,7 +41,7 @@ header {
     width: 24px;
 }
 
-#menu.active span:nth-child(2) {
+/* #menu.active span:nth-child(2) {
     opacity: 0;
     width: 0px;
 }
