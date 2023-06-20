@@ -86,24 +86,10 @@
 
     @media (min-width: 303px) and (max-width: 389px) {
         #navigation div {
-            display: flex;
-            flex-direction: column;
-            overflow: auto;
-            justify-content: center;
-            align-items: center;
+            display: none;
         }
-   
-    
-    #navigation strong {
-        margin: 10px 0px 15px 250px;
-    }
-    
-    #navigation.active {
-        right: -100px;
-    }
-    
-    #navigation strong {
-        margin: auto;
-    }
-
+        #navigation strong {
+            display: none;
+        }
+ 
 }
