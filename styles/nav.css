@@ -54,13 +54,27 @@
 
 @media (max-width: 1024px) {
     #navigation {
-        padding: 64px 40px 0;
+        padding: 110px 40px 0;
     }
 }
 
-@media (max-width: 600px) {
+@media (min-width: 390px) and (max-width: 600px) {
     #navigation {
-        width: 100vw;
-        padding: 145px 24px 0;
+        width: 106vw;
+        padding: 145px 0px 0;
+        width: 106vw;
+        padding: 145px 0px 0;
+        gap: 32px 0px;
     }
+
+    #navigation strong {
+        font-size: 32px;
+        margin: 0px 0px 0px 50px;
+    }
+
+    #navigation div{
+        gap: 40px 0px;
+    }
+
+
 }
