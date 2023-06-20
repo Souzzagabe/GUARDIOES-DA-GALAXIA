@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +14,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <div class="background">
     <div id="images">
@@ -20,17 +22,65 @@
       <img src="./assets/members/gamora.png" loading="lazy" />
       <img src="./assets/members/drax.png " loading="lazy" />
       <img src="./assets/members/mantis.png" loading="lazy" />
-      <img src="./assets/members/rocket.png" loading="lazy"/>
-      <img src="./assets/members/groot.png" loading="lazy"/>
+      <img src="./assets/members/rocket.png" loading="lazy" />
+      <img src="./assets/members/groot.png" loading="lazy" />
     </div>
   </div>
+  <div class="app">
+    <header>
+      <img class="img_logo" src="./assets/logo.png" alt="">
 
-  <div>
-    <button type="button" onclick="navigationMember(-1)" id="button_prev">voltar</button>
-    <button type="button" onclick="navigationMember(1)" id="button_next">avançar</button>
+      <button type="button" id="menu" onclick="changeMenu()" class="active">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="navigation">
+        <strong>Personagens</strong>
+        <div>
+
+          <button type="button" onclick="setMember(0)">
+            <img src="./assets/members/card-peter-quill.png" alt="">
+          </button>
+          <button type="button" onclick="setMember(1)">
+            <img src="./assets/members/card-gamora.png" alt="">
+          </button>
+          <button type="button" onclick="setMember(2)">
+            <img src="./assets/members/card-drax.png" alt="">
+          </button>
+          <button type="button" onclick="setMember(3)">
+            <img src="./assets/members/card-mantis.png" alt="">
+          </button>
+          <button type="button" onclick="setMember(4)">
+            <img src="./assets/members/card-rocket.png" alt="">
+          </button>
+          <button type="button" onclick="setMember(5)">
+            <img src="./assets/members/card-groot.png" alt="">
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <h1 id="member__name" class="peter" data-value="Peter Quill">Peter Quill </h1>
+
+      <div>
+        <button type="button" onclick="navigationMember(-1)" id="button__prev">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6l6 6l1.41-1.41z" />
+          </svg>
+        </button>
+        <button type="button" onclick="navigationMember(1)" id="button__next">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M9.4 18L8 16.6l4.6-4.6L8 7.4L9.4 6l6 6l-6 6Z" />
+          </svg></button>
+      </div>
+    </main>
   </div>
+
 
   <script src="./script/index.js"></script>
   <script src="./script/changeName.js"></script>
 </body>
+
 </html>
