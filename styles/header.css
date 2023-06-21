@@ -26,11 +26,11 @@ header {
     height: 2px;
     background-color: var(--text);
     transition: all 0.4s;
-    width: 30px;
+    width: 40px;
 }
 
 #menu span:nth-child(1) {
-    width: 32px;
+    width: 40px;
 }
 
 #menu span:nth-child(2) {
@@ -38,7 +38,7 @@ header {
 }
 
 #menu span:nth-child(3) {
-    width: 24px;
+    width: 40px;
 }
 
 
