@@ -44,9 +44,10 @@ header {
 
 @media (min-width: 250px) and (max-width: 390px) {
     button#menu.active {
-      overflow: hidden;
+        overflow: hidden;
     }
-  }
+}
+
 /* #menu.active span:nth-child(2) {
     opacity: 0;
     width: 0px;

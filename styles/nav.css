@@ -17,6 +17,7 @@
 #button__next {
     cursor: pointer;
 }
+
 #button__prev {
     cursor: pointer;
 }
@@ -79,17 +80,18 @@
         margin: 0px 0px 0px 50px;
     }
 
-    #navigation div{
+    #navigation div {
         gap: 40px 0px;
     }
 }
 
-    @media (min-width: 303px) and (max-width: 389px) {
-        #navigation div {
-            display: none;
-        }
-        #navigation strong {
-            display: none;
-        }
- 
+@media (min-width: 303px) and (max-width: 389px) {
+    #navigation div {
+        display: none;
+    }
+
+    #navigation strong {
+        display: none;
+    }
+
 }
