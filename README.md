@@ -13,3 +13,5 @@ Carregamento de fonte externa: Utilizei recursos de carregamento de fontes exter
 Uso de cores gradientes no texto: Apliquei gradientes de cores no texto para adicionar um toque visual interessante e atrativo.
 
 Estou muito satisfeito com o resultado e animado para compartilhar essa experiência. Se tiver algum feedback ou quiser saber mais detalhes sobre o projeto, fique à vontade para entrar em contato!
+
+Deploy: https://souzzagabe.github.io/GUARDIOES-DA-GALAXIA/
